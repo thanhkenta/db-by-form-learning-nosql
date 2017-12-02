@@ -1,0 +1,276 @@
+*{
+	padding:0;
+	margin:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body{
+	background-image:url('../img/x.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: repeat;
+bottom: 0;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: -3;
+}
+.navbar-default{
+	background-color:transparent;
+	border:none;
+}
+.header-body{
+	padding:30px 0 50px;
+	display:inline-block;
+	width:100%;
+}
+.navbar-nav{
+	float:right;
+	margin-top:8px;
+	margin-right: 50px;
+}
+.img-responsive.logo{
+	width:300px;
+	margin-top: -15px;
+}
+h1 a{
+	color:white;
+	font-size:80px;
+}
+h1 a:hover{
+	color:white;
+}
+.navbar-default .navbar-nav > .active > a{
+	color:white;
+	background-color:transparent;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+	color:#23D6E7;
+	background-color:transparent;
+}
+.navbar-default .navbar-nav>li >a{
+	color:white;
+	background-color:transparent;
+}
+.navbar-default .navbar-nav>li >a:hover{
+	color:#23D6E7;
+	background-color:transparent;
+}
+.navbar-default .navbar-nav > .active > a:focus{
+	color:#23D6E7;
+	background-color:transparent;
+}
+.nav > li > a{
+	padding:15px 35px;
+	font-weight: bold;
+}
+.infomation{
+	width:40%;
+	background-color: rgb(48, 212, 228, 0.5);
+	display:inline-block;
+	padding:20px;
+	position:absolute;
+	left:0;
+	top: 60px;
+}
+.content-inf{
+	padding:20px;
+	border: 4px double #fff;
+}
+.name{
+	font-size:18px;
+	color: #deed49;
+}
+.name span {
+    padding: 5px 20px;
+    background-color: #555555;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+}
+.name span::before{
+content: '';
+width: 0px;
+height: 0;
+border-top: 8px solid #555555;
+border-right: 10px solid transparent;
+position: absolute;
+top: 100%;
+border-left: 8px solid transparent;
+left: 32px;
+}
+.line{
+	display:inline-block;
+	background-color:black;
+	width:100%;
+	height:1px;
+}
+.name p{
+	margin-bottom:0;
+}
+.contact span{
+	min-width:100px;
+	display: inline-block;
+}
+.contact{
+	font-size:16px;
+	color:white;
+}
+.tab-content{
+	position:relative;
+	display: inline-block;
+	width: 100%;
+	margin-top: 60px;	
+}
+.img-home {
+    float: right;
+	margin-right: 60px;
+    z-index: -1;
+}
+.thanh {
+    width: 70%;
+    float: right;
+}
+.copy{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	color:white;
+	margin-top:40px;
+}
+.codeby{
+	color:#FFEB00;
+}
+.codeby:hover{
+	color:white;
+}
+.img-responsive.logo.wow.flash:hover {
+  transform: scale(1.35);
+  /*! transition-duration: 0.8s; */
+}
+.img-responsive.logo.wow.flash {
+  transition-duration: 0.8s;
+}
+.content-about{
+	width:80%;
+	padding:40px;
+	background-color:white;
+	margin:0 auto;
+	text-align:center;
+}
+.img-about {
+    margin-top: -113px;
+}
+.rounded {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.content-about p{
+	width:50%;
+	padding:20px;
+	text-align:justify;
+	font-size:18px;
+}
+.content1 {
+    display: flex;
+}
+.header-about h3{
+	font-size:36px;
+	padding-bottom:20px;
+	border-bottom: 4px double #23D6E7;
+	display:inline-block;
+}
+.kn1{
+	width:50%;
+	padding:20px;
+	text-align:left;
+	float:left;
+}
+.kn2{
+	width:50%;
+	padding:20px;
+	text-align:left;
+	float:left;
+}
+.content2 {
+    display: inline-block;
+    width: 100%;
+}
+.content2 .kn{
+	width:47%;
+	text-align:left;
+	display: inline-block;
+	float: left;
+}
+.kynang {
+    padding: 0 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23D6E7;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.time {
+    width: 47%;
+    text-align: left;
+    float:right;
+}
+.kynang span{
+	border-bottom: 1px solid;
+}
+.header-work{
+	margin-bottom:50px;
+}
+.row-work{
+	margin-top:20px;
+}
+.mask{
+	display:none;
+	border: 50px solid rgba(35, 214, 231, 0.64);
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,0.5);
+}
+.img-mywork{
+	position:relative;
+	display:inline-block;
+	width:100%;
+}
+.img-mywork:hover .mask{
+	display:block;
+}
+.mask span {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 27px;
+    display: inline-block;
+}
+.lienhe {
+	display:inline-block;
+	width:80%;
+	margin:0 auto;
+	padding-top:50px;
+}
+.lienhe p{
+	font-size:18px;
+	padding:0;
+	width:100%;
+	padding-bottom:20px;
+}
+.lh{
+	min-width:300px;
+	display:inline-block;
+	font-size:20px;
+	font-weight:bold;
+}
+.lh .fa{
+	min-width:50px;
+	display:inline-block;
+}
